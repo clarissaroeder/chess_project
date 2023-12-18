@@ -1,0 +1,70 @@
+/* layout */
+body {
+  background-color: #353633;
+  color: #f7f5ed;
+}
+
+body > header {
+  max-width: 1000px;
+  padding: 85px 0 35px 0;
+  margin: 0 auto;
+}
+
+body > header h1 {
+  display: inline-block;
+  width: 38%
+}
+
+/* chessboard */
+.chessboard {
+  width: 540px;
+  margin-left: 40px;
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+}
+
+.light {
+  background-color: #e2e3e1;
+}
+
+.dark {
+  background-color: #748a4e;
+}
+
+.highlight {
+  background-color: #eefcb3;
+}
+
+.coord {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+
+/* index/tbd */
+#tbd {
+
+}
+
+/* index/menu */
+#menu {
+
+}
+
+/* game/pieces */
+@font-face {
+  font-family: 'Alpha';
+  src: url('project/static/fonts/Alpha.ttf');
+}
+
+.chess-piece {
+  color: #0c0d0b;
+  text-align: center;
+  line-height: 60px;
+  font-family: 'Alpha';
+  font-size: 50px;
+}
